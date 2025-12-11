@@ -20,7 +20,7 @@ export default function Cart() {
                                 <Col md={5}>
                                     <h5 className="mb-1">{tree.attributes.SPP_COM}</h5>
                                     <p className="text-muted mb-0 small">
-                                        📍 {tree.attributes.SITE_ADDRESS}
+                                        📍 {tree.geometry.y.toFixed(5)}, {tree.geometry.x.toFixed(5)}
                                     </p>
                                 </Col>
 
